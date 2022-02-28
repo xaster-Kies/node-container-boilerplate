@@ -6,5 +6,5 @@ FROM node:alpine
 COPY ./ ./
 RUN npm install
 
-# Default command
+# Default commands
 CMD ["npm", "start"]
